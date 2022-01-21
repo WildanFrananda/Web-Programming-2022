@@ -1,0 +1,39 @@
+.box1{
+    display: flex;
+}
+.isi1{
+    width: 200px;
+    height: 80px;
+    background-color: yellow;
+}
+.isi2{
+    position: absolute;
+    width: 1101px;
+    height: 80px;
+    background-color:green ;
+    left: 18%;
+}
+.box2{
+    position: absolute;
+    display: flex;
+    top: 18%;
+}
+.isi3{
+    width: 200px;
+    height: 400px;
+    background-color: black;
+}
+.isi4{
+    position: absolute;
+    width: 1100px;
+    height: 400px;
+    background-color:orange;
+    left: 120%;
+}
+.box3{
+    position: absolute;
+    width: 1340px;
+    height: 80px;
+    background-color: crimson;
+    top: 80%;
+}
