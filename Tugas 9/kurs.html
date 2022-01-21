@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs</title>
+</head>
+<body>
+    <h2>KURS RUPIAH</h2>
+
+    <label for="currency">Mata Uang Asing</label>
+    <select id="currency">
+        <option value="usd">Dollar US</option>
+        <option value="sgd">Dollar Singapore</option>
+        <option value="myr">Ringgit Malaysia</option>
+        <option value="jpy">Yen Jepang</option>
+        <option value="eur">Euro</option>
+        <option value="sar">Riyal Arab Saudi</option>
+        <input id="berapa" type="number">
+    </select>
+
+    <button onclick="hitungKursAsing()">Hitung</button>
+
+    <label for="rupiah">Rupiah</label>
+    <input id="rupiah" type="number">
+    <script src="kurs.js"></script>
+</html>
